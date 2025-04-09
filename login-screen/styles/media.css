@@ -1,0 +1,62 @@
+@media (max-width: 900px) {
+    main {
+        flex-direction: column; /* Empilha os elementos */
+        height: auto; /* Altura ajustável */
+        width: 90%; /* Ocupar boa parte da tela */
+    }
+
+    .info {
+        width: 100%; /* Ocupar a tela toda */
+        border-radius: 10px 10px 0 0; /* Bordas arredondadas só no topo */
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .info h1 {
+        font-size: 32px; /* Reduz o tamanho do título */
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .login-form {
+        width: 100%;
+        border-radius: 0 0 10px 10px; /* Bordas arredondadas só embaixo */
+        padding: 30px 20px;
+    }
+
+    .login-form input {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    #btn {
+        width: 100%; /* Botão ocupa toda a largura */
+        padding: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .info h1 {
+        font-size: 24px; /* Diminui o título ainda mais */
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+
+    .login-form h2 {
+        font-size: 18px;
+    }
+
+    .login-form input {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    #btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
