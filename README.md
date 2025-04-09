@@ -17,7 +17,7 @@ Uma tela de login com um design vibrante, moderno e pensado para atrair atençã
 ## 📷 Preview
 
 <p align="center">
-  <img src="./preview.jpg" alt="Preview da Tela de Login Vibrante" width="400">
+  <img src="assets/mockups/vibrant-screen-mockup.png" alt="Preview da Tela de Login Vibrante" width="400">
 </p>
 
 ## 🎨 Design no Figma
